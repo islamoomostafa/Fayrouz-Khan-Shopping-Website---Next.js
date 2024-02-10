@@ -1,0 +1,16 @@
+.logout {
+  padding: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--size-border-raduis);
+  width: max-content;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout:hover {
+  transform: scale(130%);
+}

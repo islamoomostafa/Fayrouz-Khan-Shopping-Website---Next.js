@@ -1,0 +1,16 @@
+.logo {
+  transition: transform 0.2s ease-in-out;
+  width: max-content;
+  font-size: 40px;
+  background: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo:hover {
+  transform: scale(105%);
+}

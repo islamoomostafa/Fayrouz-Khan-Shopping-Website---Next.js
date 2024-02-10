@@ -1,0 +1,45 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 50px;
+  transform: translate(-30px);
+  padding: 60px 0;
+}
+
+.post {
+  flex-grow: 1;
+  border: 1px solid #444;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.post:hover {
+  background-color: black;
+  border: 1px sloid #fff;
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.text {
+  padding: 10px;
+
+  font-size: 15px;
+  color: #999;
+}
